@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 
-[CreateAssetMenu(fileName = "NPC 資料", menuName = "keon/NPC 資料")]
-public class NPCData : ScriptableObject
+[CreateAssetMenu(fileName ="NPC資料", menuName ="KEON/NPC資料")]
+public class npcData : ScriptableObject
 {
     [Header("第一段對話"), TextArea(1, 5)]
     public string dialougA;
